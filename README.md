@@ -15,18 +15,18 @@ Hackathon to get QUIC working in Space scenarios: aka long delays and disruption
   Google Quiche(in C++) or Cloudflare Quiche (in Rust) or picoquic(in C) or QUINN (in Rust).
 
 ## IETF 117 SFO Hackathon Information
-- [https://wiki.ietf.org/en/meeting/117/hackathon]()
+- [Hackathon main web page](https://wiki.ietf.org/en/meeting/117/hackathon)
 - Saturday - Sunday, 22-23 July 2023; Hilton Union Square, San Francisco, CA, USA; Plaza A-B, Lobby Level
-- IETF Zulip hackathon channel [https://zulip.ietf.org/#streams/326/hackathon] will be used for instant messaging
+- [IETF Zulip hackathon channel](https://zulip.ietf.org/#streams/326/hackathon) will be used for instant messaging
 - **Champion(s)**
   - Marc Blanchet (marc.blanchet at viagenie.ca)
   - Christian Huitema (huitema at huitema.net)
 - **Additional Info**
-  - POC: [https://www.privateoctopus.com/2023/02/07/quic-to-mars.html]()
-  - Mozilla Neqo: [https://github.com/mozilla/neqo]()
-  - Cloudflare Quiche: [https://github.com/cloudflare/quiche]()
-  - Google Quiche: [https://github.com/google/quiche]()
-  - Huitema Picoquic: [https://github.com/private-octopus/picoquic]()
-  - Quinn: [https://github.com/quinn-rs/quinn]()
-  - Linux Netem (to introduce delay): [https://man7.org/linux/man-pages/man8/tc-netem.8.html]()
-  - MacOSX Network Link Conditioner (to introduce delay): [https://medium.com/@itsanurag/simulate-low-network-with-network-link-conditioner-a1a7f14423b6]()
+  - [POC](https://www.privateoctopus.com/2023/02/07/quic-to-mars.html)
+  - [Mozilla Neqo](https://github.com/mozilla/neqo)
+  - [Cloudflare Quiche](https://github.com/cloudflare/quiche)
+  - [Google Quiche](https://github.com/google/quiche)
+  - [Huitema Picoquic](https://github.com/private-octopus/picoquic)
+  - [Quinn](https://github.com/quinn-rs/quinn)
+  - [Linux Netem (to introduce delay)](https://man7.org/linux/man-pages/man8/tc-netem.8.html)
+  - [MacOSX Network Link Conditioner (to introduce delay)](https://medium.com/@itsanurag/simulate-low-network-with-network-link-conditioner-a1a7f14423b6)
