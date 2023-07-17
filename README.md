@@ -24,6 +24,7 @@ Hackathon to get QUIC working in Space scenarios: aka long delays and disruption
 - **Additional Info**
   - [POC](https://www.privateoctopus.com/2023/02/07/quic-to-mars.html)
   - [Mozilla Neqo](https://github.com/mozilla/neqo)
+     - [Example to externalize an internal parameter](https://github.com/mozilla/neqo/pull/1402)
   - [Cloudflare Quiche](https://github.com/cloudflare/quiche)
   - [Google Quiche](https://github.com/google/quiche)
   - [Huitema Picoquic](https://github.com/private-octopus/picoquic)
