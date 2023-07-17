@@ -17,7 +17,7 @@ Hackathon to get QUIC working in Space scenarios: aka long delays and disruption
 ## IETF 117 SFO Hackathon Information
 - [https://wiki.ietf.org/en/meeting/117/hackathon]()
 - Saturday - Sunday, 22-23 July 2023; Hilton Union Square, San Francisco, CA, USA; Plaza A-B, Lobby Level
-- Slack Channel: A slack channel was created. Send email to marc.blanchet at viagenie.ca to get an invite.
+- IETF Zulip hackathon channel [https://zulip.ietf.org/#streams/326/hackathon] will be used for instant messaging
 - **Champion(s)**
   - Marc Blanchet (marc.blanchet at viagenie.ca)
   - Christian Huitema (huitema at huitema.net)
