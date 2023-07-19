@@ -34,7 +34,7 @@ Hackathon to get QUIC working in Space scenarios: aka long delays and disruption
   - [Quinn](https://github.com/quinn-rs/quinn)
   - [Linux Netem (to introduce delay)](https://man7.org/linux/man-pages/man8/tc-netem.8.html)
      - N.B. the netem delay argument seems to have a maximum of 274s
-     - usage example:
+     - usage example (\$time like 20s; \$device like enp0s1):
         - sudo tc qdisc add dev \$device root netem delay \$time
         - sudo tc qdisc del dev $device root
         - sudo tc qdisc show|list dev $device
