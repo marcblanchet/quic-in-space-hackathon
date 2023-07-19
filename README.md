@@ -24,6 +24,9 @@ Hackathon to get QUIC working in Space scenarios: aka long delays and disruption
 - **Additional Info**
   - [POC](https://www.privateoctopus.com/2023/02/07/quic-to-mars.html)
   - [Mozilla Neqo](https://github.com/mozilla/neqo)
+     - on plain ubuntu, to build neqo, you need to 
+       - apt install mercurial, gyp, ninja-build, zlib1g-dev, libclang-dev, python3
+       - alias python3 as python
      - [Example to externalize an internal parameter](https://github.com/mozilla/neqo/pull/1402)
   - [Cloudflare Quiche](https://github.com/cloudflare/quiche)
   - [Google Quiche](https://github.com/google/quiche)
@@ -32,3 +35,4 @@ Hackathon to get QUIC working in Space scenarios: aka long delays and disruption
   - [Linux Netem (to introduce delay)](https://man7.org/linux/man-pages/man8/tc-netem.8.html)
      - N.B. the netem delay argument seems to have a maximum of 274s
   - [MacOSX Network Link Conditioner (to introduce delay)](https://medium.com/@itsanurag/simulate-low-network-with-network-link-conditioner-a1a7f14423b6)
+  - You may use [QVIS](https://qvis.quictools.info/) by uploading the QLOG files and visualize the flows.
