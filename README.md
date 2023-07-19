@@ -32,6 +32,9 @@ Hackathon to get QUIC working in Space scenarios: aka long delays and disruption
   - [Google Quiche](https://github.com/google/quiche)
   - [Huitema Picoquic](https://github.com/private-octopus/picoquic)
   - [Quinn](https://github.com/quinn-rs/quinn)
+     - see: [connect API](https://docs.rs/quinn/latest/quinn/struct.Endpoint.html#method.connect_with)
+     - [client config](https://docs.rs/quinn/latest/quinn/struct.ClientConfig.html)
+     - from the author: "the situation for incoming connections is a bit more interesting -- right now we have a single global TransportConfig that is used for any incoming connection; it can be replaced freely but there's no mechanism to make it depend on source address. This could be implemented; trivially, we could let the application supply a hash table or something, but a more general mechanism where application code can inspect an initial flight and look up a suitable configuration would be interesting to pursue; a similar mechanism is sometimes desired in conventional TLS applications."
   - [Linux Netem (to introduce delay)](https://man7.org/linux/man-pages/man8/tc-netem.8.html)
      - N.B. the netem delay argument seems to have a maximum of 274s
      - usage example (\$time like 20s; \$device like enp0s1):
