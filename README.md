@@ -34,5 +34,9 @@ Hackathon to get QUIC working in Space scenarios: aka long delays and disruption
   - [Quinn](https://github.com/quinn-rs/quinn)
   - [Linux Netem (to introduce delay)](https://man7.org/linux/man-pages/man8/tc-netem.8.html)
      - N.B. the netem delay argument seems to have a maximum of 274s
+     - usage example:
+        - sudo tc qdisc add dev \$device root netem delay \$time
+        - sudo tc qdisc del dev $device root
+        - sudo tc qdisc show|list dev $device
   - [MacOSX Network Link Conditioner (to introduce delay)](https://medium.com/@itsanurag/simulate-low-network-with-network-link-conditioner-a1a7f14423b6)
   - You may use [QVIS](https://qvis.quictools.info/) by uploading the QLOG files and visualize the flows.
