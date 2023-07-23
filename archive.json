@@ -1,0 +1,163 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2023-07-23T00:15:07.474441+00:00",
+  "repo": "marcblanchet/quic-in-space-hackathon",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOJ8hvxc5WCicc",
+      "title": "Adding a draft per Martin Thomson's template.",
+      "url": "https://github.com/marcblanchet/quic-in-space-hackathon/pull/1",
+      "state": "CLOSED",
+      "author": "huitema",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-07-20T19:43:00Z",
+      "updatedAt": "2023-07-20T21:10:10Z",
+      "baseRepository": "marcblanchet/quic-in-space-hackathon",
+      "baseRefName": "master",
+      "baseRefOid": "d00706764dacf6bcb4a71ad02b432900da59d6a3",
+      "headRepository": "marcblanchet/quic-in-space-hackathon",
+      "headRefName": "ietf-draft",
+      "headRefOid": "6767f8886ee688443b937fe3ff10da9e8ba85aec",
+      "closedAt": "2023-07-20T21:10:09Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOJ8hvxc5WDGIR",
+      "title": "Restore the original README",
+      "url": "https://github.com/marcblanchet/quic-in-space-hackathon/pull/2",
+      "state": "MERGED",
+      "author": "huitema",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-07-20T21:59:09Z",
+      "updatedAt": "2023-07-20T21:59:37Z",
+      "baseRepository": "marcblanchet/quic-in-space-hackathon",
+      "baseRefName": "master",
+      "baseRefOid": "9165613f64943976270ee2ba2357dadf38fb6d83",
+      "headRepository": "marcblanchet/quic-in-space-hackathon",
+      "headRefName": "clean-up-after-draft-reset",
+      "headRefOid": "a1bbdcad26896d3047462b9271c06fa7aee37ce4",
+      "closedAt": "2023-07-20T21:59:37Z",
+      "mergedAt": "2023-07-20T21:59:37Z",
+      "mergedBy": "huitema",
+      "mergeCommit": {
+        "oid": "d1401478ad920b19f63ef413a9a8962014521ceb"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOJ8hvxc5WDIBf",
+      "title": "Add skeleton draft",
+      "url": "https://github.com/marcblanchet/quic-in-space-hackathon/pull/3",
+      "state": "CLOSED",
+      "author": "huitema",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-07-20T22:07:12Z",
+      "updatedAt": "2023-07-20T22:25:34Z",
+      "baseRepository": "marcblanchet/quic-in-space-hackathon",
+      "baseRefName": "master",
+      "baseRefOid": "d1401478ad920b19f63ef413a9a8962014521ceb",
+      "headRepository": "marcblanchet/quic-in-space-hackathon",
+      "headRefName": "skeleton-draft",
+      "headRefOid": "53766144edb323b25fd77e9c0ec3e19a63e8621b",
+      "closedAt": "2023-07-20T22:25:29Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 4,
+      "id": "PR_kwDOJ8hvxc5WDKv5",
+      "title": "Enter an updated skeleton",
+      "url": "https://github.com/marcblanchet/quic-in-space-hackathon/pull/4",
+      "state": "MERGED",
+      "author": "huitema",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-07-20T22:21:19Z",
+      "updatedAt": "2023-07-22T07:50:44Z",
+      "baseRepository": "marcblanchet/quic-in-space-hackathon",
+      "baseRefName": "master",
+      "baseRefOid": "d1401478ad920b19f63ef413a9a8962014521ceb",
+      "headRepository": "marcblanchet/quic-in-space-hackathon",
+      "headRefName": "update-test",
+      "headRefOid": "44cabd3cefff5d8c3de5f7dadb5737a49130a855",
+      "closedAt": "2023-07-22T07:50:33Z",
+      "mergedAt": "2023-07-22T07:50:33Z",
+      "mergedBy": "huitema",
+      "mergeCommit": {
+        "oid": "9a153437794085eb725c4f02762b101a9373d36d"
+      },
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
