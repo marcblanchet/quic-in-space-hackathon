@@ -27,6 +27,11 @@ author:
 normative:
 
 informative:
+    RFC2119:
+    QUIC-TRANSPORT: rfc9000
+    QUIC-TLS: rfc9001
+    QUIC-RECOVERY: rfc9002
+
 
 
 --- abstract
@@ -62,12 +67,12 @@ which we discuss in the following sections.
 
 ## Probe Timeout and Initial RTT
 
-As defined in {{RFC9002}}, QUIC uses two mechanisms to detect packet losses.
+As defined in {{QUIC-RECOVERY}}, QUIC uses two mechanisms to detect packet losses.
 The acknowledgement based method detect losses if a packet is not yet
 acknowledged while packets sent later have already been. That method works
 well even if the transmission delay is long, but cannot detect the loss
 of the "last packet". For that, QUIC uses the probe timeout defined
-in {{Section 6.2 of RFC9002}}. If the last packet is not yet acknowledged
+in {{Section 6.2 of QUIC-RECOVERY}}. If the last packet is not yet acknowledged
 after the probe timeout, the endpoint sends a "probe" to trigger an acknwledgement.
 The probe timer is initially set as a function of the measured RTT and RTTVAR. It
 is then increased exponentially as the number of unacknowledged repetitions increases.
@@ -75,7 +80,7 @@ is then increased exponentially as the number of unacknowledged repetitions incr
 The mechanism works well if the transmission delay is long after the RTT has
 been evaluated at least once. But before that, the probe timeout is set as a function of
 the Initial RTT, whose recommended value is 333 milliseconds per {{Section 6.2.2 of 
-RFC9002}}. Many implementations use smaller values
+QUIC-RECOVERY}}. Many implementations use smaller values
 because waiting too long results in longer connection delays when losses occur. The 
 recommended initial value of 333ms results in a PTO of 1 second, but the shorter values 
 used by some implementations can result in a PTO of 200 or 250ms. On a long delay link,
@@ -97,7 +102,7 @@ been reached, or because the "idle timer" has been exceeded.
 
 ## Idle Timeout
 
-The idle timeout is defined in {{Section 10.1 of RFC9000}}. Each peer
+The idle timeout is defined in {{Section 10.1 of QUIC-TRANSPORT}}. Each peer
 proposes a "max_idle_timeout" value, and commits to close the connection
 if no activity happens during that timeout. The "max_idle_timeout" value
 is often set as a constant by either the stack or the application using it,
