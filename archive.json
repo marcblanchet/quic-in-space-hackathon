@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-01-30T00:16:28.266191+00:00",
+  "timestamp": "2025-02-11T00:16:53.153818+00:00",
   "repo": "marcblanchet/quic-in-space-hackathon",
   "labels": [
     {
@@ -183,6 +183,42 @@
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOJ8hvxc6Kisek",
+      "title": "Update version of github actions",
+      "url": "https://github.com/marcblanchet/quic-in-space-hackathon/pull/6",
+      "state": "MERGED",
+      "author": "huitema",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "@marcblanchet I am getting a series of email from github complaining about the version number of github modules in github actions. This should fix it.",
+      "createdAt": "2025-02-09T06:48:21Z",
+      "updatedAt": "2025-02-09T13:21:09Z",
+      "baseRepository": "marcblanchet/quic-in-space-hackathon",
+      "baseRefName": "master",
+      "baseRefOid": "9a153437794085eb725c4f02762b101a9373d36d",
+      "headRepository": "marcblanchet/quic-in-space-hackathon",
+      "headRefName": "update-github-version",
+      "headRefOid": "2ebcc7c1ff5dbb832cab86f6f8dd0fe7fddef2a3",
+      "closedAt": "2025-02-09T06:52:25Z",
+      "mergedAt": "2025-02-09T06:52:25Z",
+      "mergedBy": "huitema",
+      "mergeCommit": {
+        "oid": "c55e8669375a9abca4fc60d0bfb69b475028010c"
+      },
+      "comments": [
+        {
+          "author": "marcblanchet",
+          "authorAssociation": "OWNER",
+          "body": "ok. don't know why but I never received those.",
+          "createdAt": "2025-02-09T13:21:08Z",
+          "updatedAt": "2025-02-09T13:21:08Z"
+        }
+      ],
       "reviews": []
     }
   ]
